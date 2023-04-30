@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./CSS/base.css" />
+    <title>Frontend Mentor | Base Apparel coming soon page</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style></style>
+  </head>
+  <body>
+    <main class="main">
+      <div class="part__texto">
+        <img src="./images/logo.svg" alt="Logo da Loja" class="logo" />
+        <h1 class="main__titulo"><span>We're</span> coming soon</h1>
+        <p class="texto__paragrafo">
+          Hello fellow shoppers! We're currently building our new fashion store.
+          Add your email below to stay up-to-date with announcements and our
+          launch deals.
+        </p>
+
+        <div class="input-icons">
+          <input
+            type="email"
+            name="email"
+            placeholder="Email Addres"
+            required
+            id="valido"
+          />
+          
+          <button class="button-arrow" onclick="isValidEmail()">
+            <img src="images/icon-arrow.svg" alt="" srcset="">
+          </button>
+        </div>
+
+        <span id="invalido"></span>
+      </div>
+    </main>
+    <footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://www.linkedin.com/in/jo%C3%A3o-victor-799200217/"
+          >João Victor</a
+        >.
+      </p>
+    </footer>
+
+    <script src="JS/base.js"></script>
+  </body>
+</html>
